@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       '@remix-run/react':
-        specifier: ^2.10.1
+        specifier: ^2.10.3
         version: 2.10.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
       '@remix-run/server-runtime':
-        specifier: ^2.10.1
+        specifier: ^2.10.3
         version: 2.10.3(typescript@5.5.3)
       '@shopify/hydrogen':
         specifier: 2024.7.1
@@ -21,7 +21,7 @@ importers:
         specifier: ^2.0.5
         version: 2.0.5(@remix-run/server-runtime@2.10.3(typescript@5.5.3))(@shopify/oxygen-workers-types@4.1.4)
       graphql:
-        specifier: ^16.6.0
+        specifier: ^16.9.0
         version: 16.9.0
       graphql-tag:
         specifier: ^2.12.6
@@ -30,23 +30,23 @@ importers:
         specifier: ^3.8.0
         version: 3.8.0
       react:
-        specifier: ^18.2.0
+        specifier: ^18.3.1
         version: 18.3.1
       react-dom:
-        specifier: ^18.2.0
+        specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@graphql-codegen/cli':
         specifier: 5.0.2
         version: 5.0.2(@types/node@20.14.11)(graphql@16.9.0)(typescript@5.5.3)
       '@remix-run/dev':
-        specifier: ^2.10.1
+        specifier: ^2.10.3
         version: 2.10.3(@remix-run/react@2.10.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3))(@types/node@20.14.11)(typescript@5.5.3)(vite@5.3.4(@types/node@20.14.11))
       '@remix-run/eslint-config':
-        specifier: ^2.10.1
+        specifier: ^2.10.3
         version: 2.10.3(eslint@8.57.0)(react@18.3.1)(typescript@5.5.3)
       '@shopify/cli':
-        specifier: ^3.64.0
+        specifier: ^3.64.1
         version: 3.64.1
       '@shopify/hydrogen-codegen':
         specifier: ^0.3.1
@@ -55,7 +55,7 @@ importers:
         specifier: ^3.0.4
         version: 3.0.4(vite@5.3.4(@types/node@20.14.11))
       '@shopify/oxygen-workers-types':
-        specifier: ^4.1.2
+        specifier: ^4.1.4
         version: 4.1.4
       '@shopify/prettier-config':
         specifier: ^1.1.2
@@ -64,31 +64,31 @@ importers:
         specifier: ^0.4.2
         version: 0.4.2
       '@types/eslint':
-        specifier: ^8.4.10
+        specifier: ^8.56.10
         version: 8.56.10
       '@types/react':
-        specifier: ^18.2.22
+        specifier: ^18.3.3
         version: 18.3.3
       '@types/react-dom':
-        specifier: ^18.2.7
+        specifier: ^18.3.0
         version: 18.3.0
       eslint:
-        specifier: ^8.20.0
+        specifier: ^8.57.0
         version: 8.57.0
       eslint-plugin-hydrogen:
         specifier: 0.12.2
         version: 0.12.2(eslint@8.57.0)(typescript@5.5.3)
       prettier:
-        specifier: ^2.8.4
+        specifier: ^2.8.8
         version: 2.8.8
       typescript:
-        specifier: ^5.2.2
+        specifier: ^5.5.3
         version: 5.5.3
       vite:
-        specifier: ^5.1.0
+        specifier: ^5.3.4
         version: 5.3.4(@types/node@20.14.11)
       vite-tsconfig-paths:
-        specifier: ^4.3.1
+        specifier: ^4.3.2
         version: 4.3.2(typescript@5.5.3)(vite@5.3.4(@types/node@20.14.11))
 
 packages:
