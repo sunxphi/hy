@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -129,7 +128,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-=======
+
 node_modules
 /.cache
 /build
@@ -138,4 +137,5 @@ node_modules
 /.mf
 .env
 .shopify
->>>>>>> b599244 (Scaffold Storefront)
+
+.DS_Store
