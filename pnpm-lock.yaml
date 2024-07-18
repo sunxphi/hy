@@ -15,11 +15,14 @@ importers:
         specifier: ^2.10.3
         version: 2.10.3(typescript@5.5.3)
       '@shopify/hydrogen':
-        specifier: 2024.7.1
-        version: 2024.7.1(@remix-run/react@2.10.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3))(@remix-run/server-runtime@2.10.3(typescript@5.5.3))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.3.4(@types/node@20.14.11))
+        specifier: 2024.7.2
+        version: 2024.7.2(@remix-run/react@2.10.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3))(@remix-run/server-runtime@2.10.3(typescript@5.5.3))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.3.4(@types/node@20.14.11))
       '@shopify/remix-oxygen':
         specifier: ^2.0.5
         version: 2.0.5(@remix-run/server-runtime@2.10.3(typescript@5.5.3))(@shopify/oxygen-workers-types@4.1.4)
+      dotenv:
+        specifier: ^16.4.5
+        version: 16.4.5
       graphql:
         specifier: ^16.9.0
         version: 16.9.0
@@ -1480,8 +1483,8 @@ packages:
       react: ^18.0.0
       react-dom: ^18.0.0
 
-  '@shopify/hydrogen@2024.7.1':
-    resolution: {integrity: sha512-Vbrx5EBbnzy+GMdDFEOnxyqXHbOWBPyS2dTrHEVfGiof7yinU1qGnFrZJR+p3KhEAF34a3dMySDFGi26k0Yeow==}
+  '@shopify/hydrogen@2024.7.2':
+    resolution: {integrity: sha512-Uly8NkOiSExWnJHX12U5jk/JSuCASwEikNOT/5NqLfHldb05/J83r3O3TACIzyXquIWqJbk910YpzOe7D/54lQ==}
     peerDependencies:
       '@remix-run/react': ^2.10.0
       '@remix-run/server-runtime': ^2.10.0
@@ -6623,7 +6626,7 @@ snapshots:
       - '@types/react'
       - xstate
 
-  '@shopify/hydrogen@2024.7.1(@remix-run/react@2.10.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3))(@remix-run/server-runtime@2.10.3(typescript@5.5.3))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.3.4(@types/node@20.14.11))':
+  '@shopify/hydrogen@2024.7.2(@remix-run/react@2.10.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3))(@remix-run/server-runtime@2.10.3(typescript@5.5.3))(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.3.4(@types/node@20.14.11))':
     dependencies:
       '@remix-run/react': 2.10.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
       '@remix-run/server-runtime': 2.10.3(typescript@5.5.3)

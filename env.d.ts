@@ -15,13 +15,13 @@ import type {
   LanguageCode,
   CountryCode,
 } from '@shopify/hydrogen/storefront-api-types';
-import type {AppSession} from '~/lib/session';
+import type { AppSession } from '~/lib/session';
 
 declare global {
   /**
    * A global `process` object is only available during build to access NODE_ENV.
    */
-  const process: {env: {NODE_ENV: 'production' | 'development'}};
+  const process: { env: { NODE_ENV: 'production' | 'development' } };
 
   /**
    * Declare expected Env parameter in fetch handler.
@@ -64,4 +64,14 @@ declare module '@shopify/remix-oxygen' {
    * Declare local additions to the Remix session data.
    */
   interface SessionData extends HydrogenSessionData {}
+}
+
+interface ImportMetaEnv {
+  readonly SHOPIFY_STORE_URL: string;
+  readonly SHOPIFY_STOREFRONT_ACCESS_TOKEN: string;
+  readonly SESSION_SECRET: string;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
 }

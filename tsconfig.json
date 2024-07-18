@@ -1,23 +1,17 @@
 {
-  "include": ["./**/*.d.ts", "./**/*.ts", "./**/*.tsx"],
   "compilerOptions": {
-    "lib": ["DOM", "DOM.Iterable", "ES2022"],
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "jsx": "react-jsx",
-    "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    "module": "ES2022",
-    "target": "ES2022",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "strict": true,
-    "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
+    "jsx": "react-jsx",
     "baseUrl": ".",
-    "types": ["@shopify/oxygen-workers-types"],
     "paths": {
-      "~/*": ["app/*"]
+      "@/*": ["src/*"]
     },
-    "noEmit": true
-  }
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src", "server.ts"]
 }
