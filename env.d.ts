@@ -1,3 +1,11 @@
-SHOPIFY_STORE_URL=http://1c0e10-58.myshopify.com
-SHOPIFY_STOREFRONT_ACCESS_TOKEN=5e07f778bc56bf7fa7cf19d121062655
-SESSION_SECRET="foobar"
+/// <reference types="vite/client" />
+
+interface ImportMetaEnv {
+  readonly SHOPIFY_STORE_URL: string;
+  readonly SHOPIFY_STOREFRONT_ACCESS_TOKEN: string;
+  readonly SESSION_SECRET: string;
+}
+
+interface ImportMeta {
+  readonly env: ImportMetaEnv;
+}
